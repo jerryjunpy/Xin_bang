@@ -1,8 +1,8 @@
 # coding: utf-8
-from Xin_bang.utils import user_agent, config, md5_password
+from utils import user_agent, config, md5_password
 import time
 import requests
-from Xin_bang.utils.log import get_logger
+from utils.log import get_logger
 import random
 import hashlib
 from w3lib.html import remove_tags
